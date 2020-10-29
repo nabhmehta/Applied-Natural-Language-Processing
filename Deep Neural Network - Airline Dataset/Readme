@@ -1,0 +1,14 @@
+Practice training a deep neural network on the airline dataset. Use the file (softmax_regression_concise_detailed) as your starting point. Do not change the pre-processing steps. 
+
+Use He initialization and the ELU activation function.
+•	Build a DNN with 20 hidden layers of 100 neurons each (that’s too many, but it’s the point of this exercise). Use He initialization and the ELU activation function.
+
+•	Using Adam optimization and early stopping, train the network. Remember to search for the right learning rate each time you change the model’s architecture or hyper-parameters.
+
+•	Now try adding Batch Normalization and compare the learning curves: Is it converging faster than before? Does it produce a better model? How does it affect training speed?
+
+•	Try replacing Batch Normalization with SELU, and make the necessary adjustments to ensure the network self-normalizes (i.e., standardize the input features, use LeCun normal initialization, make sure the DNN contains only a sequence of dense layers, etc.).
+
+•	Try regularizing the model with dropout layer.
+
+•	Retrain your model using 1cycle scheduling and see if it improves training speed and model accuracy.
